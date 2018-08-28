@@ -2,7 +2,7 @@
 
 A mod for Kerbal Space Program to provide atmospheric performance data for spaceplanes and aircraft.
 
-**ATTENTION** The upstream is under active development. If you don't really need any of my changes, if far better to stick with the original version! :) 
+**ATTENTION** The upstream is under active development. If you don't really need any of my changes, IMHO it's better to stick with the original version! :) 
 
 
 ## In a Hurry
