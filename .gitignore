@@ -1,5 +1,9 @@
-Wind Tunnel/.vs/
-Wind Tunnel/Wind Tunnel/bin/
-Wind Tunnel/Wind Tunnel/obj/
-Wind Tunnel/packages/
-Wind Tunnel/Wind Tunnel/packages.config
+.vs
+bin
+obj
+GameData/**/LICENSE
+GameData/**/README.md
+GameData/**/*.version
+GameData/**/*.dll
+GameData/**/CHANGE_LOG.md
+Source/**/Properties/Version.cs
