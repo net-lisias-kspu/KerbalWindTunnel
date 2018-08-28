@@ -5,14 +5,17 @@ namespace KerbalWindTunnel
 {
     public class WindTunnelSettings
     {
-        public static bool UseCoefficients
+		const string SETTINGS_FILE = "PluginData/WindTunnel/KerbalWindTunnelSettings.cfg";
+
+		public static bool UseCoefficients
         {
             get { return Instance.useCoefficients; }
             set
             {
                 Instance.useCoefficients = value;
                 settingsChanged = true;
-            }
+
+			}
         }
         [Persistent]
         public bool useCoefficients;
@@ -117,15 +120,15 @@ namespace KerbalWindTunnel
         }
         private void LoadSettingsFromFile()
         {
-            ConfigNode[] settingsNode = GameDatabase.Instance.GetConfigNodes("KerbalWindTunnelSettings");
-            if (settingsNode.Length < 1)
+			ConfigNode settingsNode = ConfigNode.Load(SETTINGS_FILE);
+            if (null == settingsNode)
             {
                 Debug.Log("Kerbal Wind Tunnel Settings file note found.");
                 // To trigger creating a settings file.
                 settingsChanged = true;
                 return;
             }
-            ConfigNode.LoadObjectFromConfig(this, settingsNode[0]);
+            ConfigNode.LoadObjectFromConfig(this, settingsNode);
         }
 
         public static void SaveSettings()
@@ -141,7 +144,7 @@ namespace KerbalWindTunnel
 
             ConfigNode save = new ConfigNode();
             save.AddNode(data);
-            save.Save("GameData/WindTunnel/KerbalWindTunnelSettings.cfg");
+            save.Save(SETTINGS_FILE);
         }
     }
 
