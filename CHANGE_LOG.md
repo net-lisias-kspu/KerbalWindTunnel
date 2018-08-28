@@ -1,5 +1,9 @@
 # Kerbal Wind Tunnel :: Change Log
 
+* 2018-0805: 1.0.1 (Booots) for KSP 1.4.4
+	+ The first complete release of Kerbal Wind Tunnel!
+	+ This mod lets you see the flight envelope and performance graphs for your spaceplanes.
+	+ Now with auto-axes and axis labels!
 * 2018-0804: 1.0 (Booots) for KSP 1.4.2
 	+ The first complete release of Kerbal Wind Tunnel!
 	+ This mod lets you see the flight envelope and performance graphs for your spaceplanes.
