@@ -34,3 +34,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion(KerbalWindTunnel.Version.Number)]
 [assembly: AssemblyFileVersion(KerbalWindTunnel.Version.Number)]
+
+[assembly: KSPAssemblyDependency("ClickThroughBlocker", 1, 0)]

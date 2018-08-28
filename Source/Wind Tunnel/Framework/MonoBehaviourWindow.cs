@@ -10,8 +10,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using KSP;
 using UnityEngine;
+using KSP;
+using ClickThroughFix;
 
 namespace KSPPluginFramework
 {
@@ -242,11 +243,11 @@ namespace KSPPluginFramework
             //Are we using a custom style of the skin style for the window
             if (WindowStyle == null)
             {
-                WindowRect = GUILayout.Window(WindowID, WindowRect, DrawWindowInternal, WindowCaption, WindowOptions);
+                WindowRect = ClickThruBlocker.GUILayoutWindow(WindowID, WindowRect, DrawWindowInternal, WindowCaption, WindowOptions);
             }
             else
             {
-                WindowRect = GUILayout.Window(WindowID, WindowRect, DrawWindowInternal, WindowCaption, WindowStyle, WindowOptions);
+                WindowRect = ClickThruBlocker.GUILayoutWindow(WindowID, WindowRect, DrawWindowInternal, WindowCaption, WindowStyle, WindowOptions);
             }
 
             if (WindowMoveEventsEnabled)

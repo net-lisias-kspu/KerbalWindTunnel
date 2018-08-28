@@ -57,6 +57,9 @@
     <Reference Include="Accord.Math">
       <HintPath>..\..\LIB\Accord.Math.dll</HintPath>
     </Reference>
+    <Reference Include="ClickThroughBlocker">
+      <HintPath>..\..\..\..\..\LIB\plugins\ClickThroughBlocker.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Threading\CalculationManager.cs" />
