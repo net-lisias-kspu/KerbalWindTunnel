@@ -22,7 +22,7 @@ This mod runs your spaceplane through a virtual wind tunnel while still in the S
 
 ## Installation
 
-In your KSP GameData folder, delete any existing EditorExtensions folder. Download the zip file to your KSP GameData folder and unzip.﻿
+In your KSP GameData folder, delete any existing `WindTunnel` folder. Download the zip file to your KSP GameData folder and unzip.﻿
 
 ### Dependencies
 
