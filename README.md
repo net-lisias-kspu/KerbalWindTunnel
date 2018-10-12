@@ -7,9 +7,9 @@ A mod for Kerbal Space Program to provide atmospheric performance data for space
 
 ## In a Hurry
 
-* [Releases](https://github.com/net-lisias-kspu/KerbalWindTunnel/tree/Archive)
-* [Source](https://github.com/net-lisias-kspu/KerbalWindTunnel)
 * [Latest Release](https://github.com/net-lisias-kspu/KerbalWindTunnel/releases)
+	+ [Binaries](https://github.com/net-lisias-kspu/KerbalWindTunnel/tree/Archive)
+* [Source](https://github.com/net-lisias-kspu/KerbalWindTunnel)
 * [Change Log](./CHANGE_LOG.md)
  
 
