@@ -40,6 +40,7 @@ cp $VERSIONFILE "./GameData/$TARGETDIR"
 cp CHANGE_LOG.md "./GameData/$TARGETDIR"
 cp README.md  "./GameData/$TARGETDIR"
 cp LICENSE "./GameData/$TARGETDIR"
+cp NOTICE "./GameData/$TARGETDIR"
 
 for dll in "Wind Tunnel" Accord Accord.Math.Core Accord.Math ;  do
     deploy_dev "$dll"
